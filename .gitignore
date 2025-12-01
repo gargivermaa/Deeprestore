@@ -1,0 +1,35 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output folders (generated files)
+bw_vid_out/
+cc_frames/
+denoise_out/
+ivp_out/
+output_images/
+outputs/
+prop_out/
+smooth_out/
+sr_out/
+step_output/
+temp_videos/
+vid_out/
+work_*/
+uploads/
+EDSR_x3.pb
+input_images/
+frontend/
+
+# Videos (large files)
+vid/*.mp4
+vid/*.avi
+
+# Result images (auto-generated)
+comparison_*.jpg
+
+# Runtime config
+_config.yml
